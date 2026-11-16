@@ -1,0 +1,22 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+**/.vite/
+
+# Environment files / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and generated archives
+**/*.log
+**/*.local
+**/code.tar.gz
+**/*.tar.gz
+
+# CSV exports: don't push real user/applicant data
+**/uploads/*.csv
+
+.DS_Store
